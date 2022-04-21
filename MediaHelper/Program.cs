@@ -12,7 +12,7 @@ namespace MediaHelper
         {
             try
             {
-                List<string> directories = new List<string>() { @"D:\Media\Movies", @"M:\Movies" };
+                List<string> directories = new List<string>() { Properties.Settings.Default.MediaDirectory1, Properties.Settings.Default.MediaDirectory2 };
                 foreach (var d in directories)
                 {
                     if (Directory.Exists(d))
@@ -21,7 +21,7 @@ namespace MediaHelper
                     }
                 }
 
-                string downloadsDir = @"C:\Users\bertr\Downloads";
+                string downloadsDir = Properties.Settings.Default.DownloadDirectory;
                 ProcessFiles(downloadsDir, true);
             }
             catch (Exception ex)
@@ -30,7 +30,6 @@ namespace MediaHelper
                 Console.ReadKey();
                 throw;
             }
-
         }
 
         public static void ProcessDirectory(string targetDirectory)

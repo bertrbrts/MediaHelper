@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="MediaHelper.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="DownloadDirectory" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C:\Users\bertr\Downloads</Value>
+    </Setting>
+    <Setting Name="MediaDirectory1" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">D:\Media\Movies</Value>
+    </Setting>
+    <Setting Name="MediaDirectory2" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">M:\Movies</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
